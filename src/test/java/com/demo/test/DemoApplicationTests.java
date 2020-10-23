@@ -1,4 +1,4 @@
-package com.estabild.demo.estabilddemo;
+package com.demo.test;
 
 import java.util.Date;
 
@@ -29,7 +29,7 @@ import com.demo.utils.UserConverter;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = EstabildDemoApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class EstabildDemoApplicationTests {
+public class DemoApplicationTests {
 
 	@Autowired
 	private TestRestTemplate restTemplate;
